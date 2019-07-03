@@ -21,7 +21,7 @@ const UserItem = ( {user: { login, avatar_url, html_url } }) =>  {
     );
 };
 
-UserItem.prototypes = {
+UserItem.Prototypes = {
   user: PropTypes.object.isRequired,
 }
 
